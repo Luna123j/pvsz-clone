@@ -1,8 +1,9 @@
 import React from "react";
+import './ControlBar.scss'
 
 const ControlBar = ()=>{
  return (
-  <div>this is controlbar</div> )
+  <div className="controlBar">this is controlbar</div> )
 }
 
 export default ControlBar;
