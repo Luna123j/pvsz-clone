@@ -1,10 +1,8 @@
 import React from "react";
 
-const Square = ()=>{
+const Square = ({id})=>{
   return (
-    <div>
-    
-    </div>
+     <span className="square">square</span>
   )
 }
 
